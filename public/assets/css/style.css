@@ -1,4 +1,4 @@
-/* Css For Medimart */
+/* Css For Biz Incorp */
 
 /************ TABLE OF CONTENTS ***************
 1. Fonts
@@ -1149,7 +1149,7 @@ img {
 
 .main-menu .navigation > li.current > a,
 .main-menu .navigation > li:hover > a {
-  color:  #ffffff;
+  color: #ffffff;
 }
 
 .main-menu .navigation > li > a:before {
@@ -1237,7 +1237,7 @@ img {
 .main-menu .navigation > li > ul > li > a:hover,
 .main-menu .navigation > li > .megamenu li > a:hover {
   padding-left: 35px;
-  color:  #ffffff;
+  color: #ffffff;
 }
 
 .main-menu .navigation > li > ul > li:last-child > a,
