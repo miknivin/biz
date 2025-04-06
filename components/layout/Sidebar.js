@@ -53,20 +53,23 @@ export default function Sidebar({ isSidebar, handleSidebar }) {
                       Research oriented solutions for Data Science and Machine
                       Learning business needs.
                     </p> */}
-                    <Link href="about.html" className="theme-btn btn-one">
+                    <Link href="/about-us" className="theme-btn btn-one">
                       <span>About Us</span>
                     </Link>
                   </div>
                   <div className="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                      <li>Chicago 12, Melborne City, USA</li>
                       <li>
-                        <Link href="tel:+8801682648101">+88 01682648101</Link>
+                        Al Moosa Tower 2 - Office No:15, Level - 4, Sheikh Zayed
+                        Rd - Trade Centre - Trade Centre 1 - Duba
                       </li>
                       <li>
-                        <Link href="mailto:info@example.com">
-                          info@example.com
+                        <Link href="tel:+971561826946">+971561826946</Link>
+                      </li>
+                      <li>
+                        <Link href="mailto:thebizincorp@gmail.com">
+                          thebizincorp@gmail.com
                         </Link>
                       </li>
                     </ul>
