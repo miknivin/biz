@@ -41,7 +41,7 @@ export default function Home() {
                         <div className="image-box">
                           <div className="shape float-bob-x" style={{ backgroundImage: "url(assets/images/shape/shape-7.png)" }}></div>
                           <div className="image-shape" style={{ backgroundImage: "url(assets/images/shape/shape-26.png)" }}></div>
-                          <figure className="image-2"><img src="assets/images/resource/about-1.jpg" alt="" /></figure>
+                          <figure className="image-2"><img src="/assets/images/resource/Business Solutions & Consultancy about us 600 562.jpg" alt="" /></figure>
                           {/* <div className="icon-one"><i className="icon-13"></i></div>
                           <div className="icon-two"><i className="icon-14"></i></div> */}
                           
@@ -103,7 +103,7 @@ Expertise
                         <div className="processing-block-one wow fadeInLeft animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                           <div className="inner-box">
                             <span className="count-text">01</span>
-                            <figure className="image-box"><img src="assets/images/resource/process-1.png" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/resource/Schedule a Consultation.jpg" alt="" /></figure>
                             <div className="lower-content">
                               <h3>Schedule a Consultation</h3>
                               <p>Connect with our experts to discuss your business goals and needs. </p>
@@ -113,7 +113,7 @@ Expertise
                         <div className="processing-block-one wow fadeInLeft animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                           <div className="inner-box">
                             <span className="count-text">02</span>
-                            <figure className="image-box"><img src="assets/images/resource/process-2.png" alt="" /></figure>
+                            <figure className="image-box"><img src="assets/images/resource/Apt Solutions.jpg" alt="" /></figure>
                             <div className="lower-content">
                               <h3>Apt Solutions</h3>
                               <p>Receive a customized plan for business setup, visas, or attestation.                              </p>
@@ -123,7 +123,7 @@ Expertise
                         <div className="processing-block-one wow fadeInLeft animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                           <div className="inner-box">
                             <span className="count-text">03</span>
-                            <figure className="image-box"><img src="assets/images/resource/process-3.png" alt="" /></figure>
+                            <figure className="image-box"><img src="assets/images/resource/Launch with confidence.jpg" alt="" /></figure>
                             <div className="lower-content">
                               <h3>Launch with Confidence</h3>
                               <p>Start your venture with full support, including attestation for over 120 countries. </p>

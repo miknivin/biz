@@ -49,7 +49,7 @@ import Process from "@/components/sections/home3/Process"
 import Testimonial from "@/components/sections/home3/Testmonial"
 import Faq from "@/components/sections/home3/Faq"
 import Video from "@/components/sections/home3/Video"
-// import Gallery from "@/components/sections/home3/Gallery"
+import Gallery from "@/components/sections/home3/Gallery"
 import Contact from "@/components/sections/home3/Contact"
 import Map from "@/components/sections/home3/Map"
 import Subscribe from "@/components/sections/home3/Subscribe"
@@ -66,7 +66,7 @@ export default function Home() {
                 <Faq />
                 <Video />
                 {/* <Team /> */}
-                {/* <Gallery /> */}
+                { <Gallery /> }
                 {/* <News /> */}
                 <Contact />
                 <Map />
