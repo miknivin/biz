@@ -1,5 +1,6 @@
 "use client";
 import Isotope from "isotope-layout";
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 export default function PortfolioFilter1() {
@@ -11,9 +12,10 @@ export default function PortfolioFilter1() {
       id: 1,
       image: "/assets/images/flags/egypt flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
-      description: "Setup your LLC or Corporation easily.",
+      country: "egypt",
+      title: "Egypt",
+      isConsolate: true,
+      description: "Egypt Certificate Attestation for UAE",
       content:
         "We help you register a business in the USA with complete support and documentation.",
     },
@@ -21,8 +23,9 @@ export default function PortfolioFilter1() {
       id: 2,
       image: "/assets/images/flags/india flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "india",
+      title: "India",
+      isConsolate: false,
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -31,8 +34,8 @@ export default function PortfolioFilter1() {
       id: 3,
       image: "/assets/images/flags/kuwait flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "kuwait",
+      title: "Kuwait",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -41,8 +44,9 @@ export default function PortfolioFilter1() {
       id: 4,
       image: "/assets/images/flags/lebanon flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "lebanon",
+      isConsolate: true,
+      title: "Lebanon",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -51,8 +55,9 @@ export default function PortfolioFilter1() {
       id: 5,
       image: "assets/images/flags/russia flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "russia",
+      isConsolate: true,
+      title: "Russia",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -61,8 +66,8 @@ export default function PortfolioFilter1() {
       id: 6,
       image: "/assets/images/flags/sweden flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "sweden",
+      title: "Sweden",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -71,8 +76,8 @@ export default function PortfolioFilter1() {
       id: 7,
       image: "/assets/images/flags/switzerland flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "switzerland",
+      title: "Switzerland",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -81,8 +86,8 @@ export default function PortfolioFilter1() {
       id: 8,
       image: "/assets/images/flags/uk flag.jpg",
       categories: ["cat-1"],
-      country: "us",
-      title: "Company Formation USA",
+      country: "uk",
+      title: "United Kingdom",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -92,17 +97,17 @@ export default function PortfolioFilter1() {
       image: "/assets/images/flags/usa flag.jpg",
       categories: ["cat-1"],
       country: "us",
-      title: "Company Formation USA",
+      title: "USA",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
     },
     {
       id: 10,
-      image: "/assets/images/flags/usa flag.jpg",
+      image: "/assets/images/flags/qatar.jpeg",
       categories: ["cat-1"],
       country: "us",
-      title: "Company Formation USA",
+      title: "Qatar",
       description: "Setup your LLC or Corporation easily.",
       content:
         "We help you register a business in the USA with complete support and documentation.",
@@ -160,11 +165,13 @@ export default function PortfolioFilter1() {
 
       <div className="items-container row clearfix">
         {galleryItems.map((item) => (
-          <div
+          <Link
+            href={`/attestation/${item.country}`}
             key={item.id}
             className={`col-lg-4 col-md-6 col-sm-12 masonry-item all ${item.categories.join(
               " "
             )}`}
+            style={{ marginBottom: "20px" }} // Add gap between rows
           >
             <div className="gallery-block-one">
               <div className="inner-box">
@@ -172,29 +179,25 @@ export default function PortfolioFilter1() {
                   <img src={item.image} alt={`Gallery ${item.id}`} />
                 </figure>
                 <div className="content-box">
-                  <div className="content-box">
-                    {item.title && <h4 className="title">{item.title}</h4>}
-                  </div>
-
-                  <div className="link-box">
-                    {/* <a href="project-details" className="lightbox-image" data-fancybox="gallery">
-                                            <i className="icon-4"></i>
-                                        </a> */}
-                  </div>
-                  {/* <div className="flag-box mt-2">
-                                        <img
-                                            src={`https://flagcdn.com/24x18/${item.country}.png`}
-                                            alt={item.country}
-                                            width={24}
-                                            height={18}
-                                        />
-                                    </div> */}
+                  {item.title && <h4 className="title">{item.title}</h4>}
+                  {item.isConsolate && <p>{"(Consolate attestation)"}</p>}
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
+
+      {/* Inline CSS for additional styling if needed */}
+      <style jsx>{`
+        .masonry-item {
+          /* Optional: Ensure consistent spacing */
+          padding: 0 10px; /* Adds horizontal gap between columns */
+        }
+        .items-container {
+          margin: 0 -10px; /* Counteract the padding on items */
+        }
+      `}</style>
     </>
   );
 }

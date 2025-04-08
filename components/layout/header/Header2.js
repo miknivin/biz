@@ -62,7 +62,7 @@ export default function Header2({
                     <img
                       width={120}
                       style={{ width: "120px" }}
-                      src="assets/images/logo.png"
+                      src="/assets/images/logo.png"
                       alt=""
                     />
                   </Link>
@@ -111,7 +111,7 @@ export default function Header2({
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img width={120} src="assets/images/logo.png" alt="" />
+                    <img width={120} src="/assets/images/logo.png" alt="" />
                   </Link>
                 </figure>
               </div>

@@ -13,7 +13,7 @@ export default function Menu() {
 
       <ul className="navigation clearfix">
         <li className="dropdown">
-          <Link href="/index-3">Home</Link>
+          <Link href="/">Home</Link>
           {/* <ul>
                         <li><Link href="/">Home Page One</Link></li>
                         <li><Link href="/index-2">Home Page Two</Link></li>
@@ -34,7 +34,9 @@ export default function Menu() {
               <Link href="/service-details-5">Accounting and Bookkeeping</Link>
             </li>
             <li>
-              <Link href="/service-details-6">Certificate Attestation Services</Link>
+              <Link href="/service-details-6">
+                Certificate Attestation Services
+              </Link>
             </li>
             <li>
               <Link href="/service-details-2">UAE Resident Visa</Link>
@@ -51,7 +53,6 @@ export default function Menu() {
             <li>
               <Link href="/service-details-8">Bank Account Assistance</Link>
             </li>
-            
           </ul>
         </li>
         {/* <li className="dropdown">

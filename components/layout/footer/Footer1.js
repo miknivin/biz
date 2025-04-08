@@ -30,7 +30,9 @@ export default function Footer1() {
                     </Link>
                   </figure>
                   <p>
-                  Biz InCorp empowers entrepreneurs with seamless business setup, visa, and attestation services for over 120 countries.
+                    Biz InCorp empowers entrepreneurs with seamless business
+                    setup, visa, and attestation services for over 120
+                    countries.
                   </p>
                   <ul className="social-links clearfix">
                     <li>
@@ -67,14 +69,14 @@ export default function Footer1() {
                         <Link href="/">Home</Link>
                       </li>
                       <li>
-                        <Link href="about">About Us</Link>
+                        <Link href="/about">About Us</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="service">Services</Link>
-                      </li>
+                      </li> */}
                       {/* <li><Link href="/">Elements</Link></li> */}
                       <li>
-                        <Link href="contact">Contacts Us</Link>
+                        <Link href="/contact">Contacts Us</Link>
                       </li>
                     </ul>
                   </div>
@@ -115,9 +117,9 @@ export default function Footer1() {
                   <div className="widget-content">
                     <ul className="info-list">
                       <li>
-                        <img src="assets/images/icons/icon-1.png" alt="" />
-                        Al Moosa Tower 2 - Office No:15, Level - 4, Sheikh Zayed Rd - Trade Centre - Trade Centre 1 - Dubai
-
+                        <img src="/assets/images/icons/icon-1.png" alt="" />
+                        Al Moosa Tower 2 - Office No:15, Level - 4, Sheikh Zayed
+                        Rd - Trade Centre - Trade Centre 1 - Dubai
                       </li>
                       <li>
                         <i className="icon-2"></i>
@@ -126,7 +128,7 @@ export default function Footer1() {
                       <li>
                         <i className="icon-26"></i>
                         <Link href="mailto:example@info.com">
-                        thebizincorp@gmail.com
+                          thebizincorp@gmail.com
                         </Link>
                       </li>
                     </ul>

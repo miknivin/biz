@@ -25,7 +25,12 @@ export default function Home() {
   };
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="About Us">
+      <Layout
+        headerStyle={2}
+        footerStyle={1}
+        isAttestation={true}
+        breadcrumbTitle="UK Certificate Attestation in UAE"
+      >
         {/* about-section */}
         <section className="about-style-two pt_120 pb_120">
           <div className="pattern-layer">
@@ -45,8 +50,8 @@ export default function Home() {
             ></div>
           </div>
           <div className="auto-container">
-            <div className="row clearfix">
-              <div className="col-lg-6 col-md-12 col-sm-12 image-column">
+            <div className="row clearfix d-flex flex-row-reverse">
+              <div className="col-lg-4 col-md-12 col-sm-12 image-column">
                 <div className="image_block_one">
                   <div className="image-box">
                     <div
@@ -63,21 +68,24 @@ export default function Home() {
                       }}
                     ></div>
                     <figure className="image-2">
-                      <img src="assets/images/resource/about-1.jpg" alt="" />
+                      <img
+                        src="/assets/images/attestation/uk--certificate.jpg"
+                        alt=""
+                      />
                     </figure>
                     {/* <div className="icon-one"><i className="icon-13"></i></div>
                           <div className="icon-two"><i className="icon-14"></i></div> */}
                   </div>
                 </div>
               </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
+              <div className="col-lg-8 col-md-12 col-sm-12 content-column">
                 <div className="content_block_one">
                   <div className="content-box ml_30">
                     <div className="sec-title mb_15">
-                      <span className="sub-title">
-                        UK Certificate Attestation for UAE{" "}
-                      </span>
-                      <h2>
+                      <h2>UK Certificate Attestation in UAE</h2>
+                    </div>
+                    <div className="text-box mb_40">
+                      <p className="pb-4">
                         Are you moving from the UK to UAE for job purposes,
                         business setup, bringing your family for the long term,
                         or investing in property? Then, you must be aware that
@@ -85,60 +93,28 @@ export default function Home() {
                         stress-free legal process, whether it’s for visa
                         purposes or another reason. Do not get stressed. We are
                         here to assist you to with all types of UK documents
-                        attestation to use in UAE. In case, you have studied a
-                        course from Middlesex University, Heriot-Watt
-                        University, Bolton University, etc in the UAE itself,
-                        the document will still need to be attested by the
-                        authorities in London because these universities are
-                        registered in the United Kingdom. This process is also
-                        applicable to ACCA and NEBOSH certificates, irrespective
-                        of the country of issue. Above all certificates will
-                        have to be attested only via the UK authorities and UAE
-                        Embassy in London. Prompt Attestation Services is
-                        assisting with the following documents to hundreds of
-                        happy clients on a daily basis to those who moved from
-                        UK to UAE. In essence, this comprehensive process
-                        ensures your UK certificate gains utmost credibility for
-                        various purposes including visa applications and legal
-                        proceedings.
-                      </h2>
-                    </div>
-                    <div className="text-box mb_40">
-                      <span>
-                        Process of UK Certificate Attestation in Dubai.
-                      </span>
-                      <p>
-                        The attestation process of UK certificates typically
-                        involves several steps to ensure the authenticity and
-                        validity of the document. Here is a general overview of
-                        the process:
+                        attestation to use in UAE.
                       </p>
-                      <ul className="list-style-one clearfix">
-                 
-                        <li><h3>Notarization:</h3><p>Firstly, solicitor or a notary public in the UK notarize your original UK certificate. The notary will verify the document’s authenticity and attach a notarial seal.</p></li>
-                        
-                        <li><h3>Legalization:</h3><p>After notarizing the document, you need to have the Foreign and Commonwealth Office (FCO) in the UK legalize it. The FCO will attach an apostille to the document, certifying its authenticity.</p></li>
-                        <li><h3>Attestation by the UAE Embassy:</h3><p>Once the FCO legalizes the document, you should submit it, along with any necessary forms and fees, to the UAE Embassy in the UK for attestation. The embassy will then verify the document and affix their attestation stamp or seal.</p></li>
-                        <li><h3>Attestation by the UAE Ministry of Foreign Affairs (MOFA):</h3><p>After the UAE Embassy attests the document, you must proceed to get the document attested by the UAE Ministry of Foreign Affairs. Lastly, The MOFA will review the document and affix their attestation stamp or seal.</p></li>
-                        <li><h3>Translation (if required):</h3><p>If your document is in a language other than English or Arabic, then you need to get it translated into Arabic by a certified translator. The attestation process should also be applied to the translated document.</p></li>
-                      </ul>
-                    </div>
-                    <div className="lower-box">
-                      <div className="experience-box">
-                        <div className="icon-box">
-                          <img
-                            src="assets/icons/cooperation.png"
-                            alt="business"
-                          />
-                        </div>
-                        <h3>Why is UK certificate attestation required for the UAE?</h3>
-                        <p>Certificate attestation is a process by which official documents are authenticated to be used in a foreign country. In the context of the UK, certificate attestation may be required for various reasons, including:</p>
-                        {/* <span className="designation">
-                          Of Business Expertise
-                        </span> */}
-                      </div>
-                      {/* <figure className="author-thumb"><img src="assets/images/resource/author-1.jpg" alt="" /></figure> */}
-                      <div className="signature">Biz InCorp Team</div>
+                      <p className="pb-4">
+                        In case, you have studied a course from Middlesex
+                        University, Heriot-Watt University, Bolton University,
+                        etc in the UAE itself, the document will still need to
+                        be attested by the authorities in London because these
+                        universities are registered in the United Kingdom. This
+                        process is also applicable to ACCA and NEBOSH
+                        certificates, irrespective of the country of issue.
+                        Above all certificates will have to be attested only via
+                        the UK authorities and UAE Embassy in London.
+                      </p>
+                      <p className="pb-4">
+                        Prompt Attestation Services is assisting with the
+                        following documents to hundreds of happy clients on a
+                        daily basis to those who moved from UK to UAE. In
+                        essence, this comprehensive process ensures your UK
+                        certificate gains utmost credibility for various
+                        purposes including visa applications and legal
+                        proceedings.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -146,287 +122,243 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* about-section end */}
-
-        {/* process */}
-        <section className="process-section sec-pad bg-color-1">
-          <div className="shape">
-            <div
-              className="shape-1 float-bob-x"
-              style={{
-                backgroundImage: "url(assets/images/shape/shape-20.png)",
-              }}
-            ></div>
-            <div
-              className="shape-2 float-bob-y"
-              style={{
-                backgroundImage: "url(assets/images/shape/shape-15.png)",
-              }}
-            ></div>
-            <div className="shape-3"></div>
-          </div>
-          <div className="auto-container">
-            <div className="sec-title mb_50 centred">
-              <span className="sub-title">Process</span>
-              <h2>
-                How We Help You <br />
-                Facilitate and Succeed
-              </h2>
-            </div>
-            <div className="inner-container">
-              <div
-                className="arrow-shape"
-                style={{
-                  backgroundImage: "url(assets/images/shape/shape-18.png)",
-                }}
-              ></div>
-              <div
-                className="processing-block-one wow fadeInLeft animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="inner-box">
-                  <span className="count-text">01</span>
-                  <figure className="image-box">
-                    <img src="assets/images/resource/process-1.png" alt="" />
-                  </figure>
-                  <div className="lower-content">
-                    <h3>Schedule a Consultation</h3>
-                    <p>
-                      Connect with our experts to discuss your business goals
-                      and needs.{" "}
+        <div className="container mt-4">
+          <div className="row">
+            <div className="col-lg-8 col-md-12 col-sm-12 ">
+              <>
+                <h1 className="fs-2 mb-3">
+                  Process of UK Certificate Attestation in Dubai
+                </h1>
+                <p className="mb-3">
+                  The attestation process of UK certificates typically involves
+                  several steps to ensure the authenticity and validity of the
+                  document. Here is a general overview of the process:
+                </p>
+                <ol className="list-group list-group-numbered">
+                  <li className="list-group-item">
+                    <strong>Notarization:</strong>
+                    <p className="text-secondary mb-0">
+                      Firstly, solicitor or a notary public in the UK notarize
+                      your original UK certificate. The notary will verify the
+                      document’s authenticity and attach a notarial seal.
                     </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="processing-block-one wow fadeInLeft animated"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="inner-box">
-                  <span className="count-text">02</span>
-                  <figure className="image-box">
-                    <img src="assets/images/resource/process-2.png" alt="" />
-                  </figure>
-                  <div className="lower-content">
-                    <h3>Apt Solutions</h3>
-                    <p>
-                      Receive a customized plan for business setup, visas, or
-                      attestation.{" "}
+                  </li>
+                  <li className="list-group-item">
+                    <strong>Legalization:</strong>
+                    <p className="text-secondary mb-0">
+                      After notarizing the document, you need to have the
+                      Foreign and Commonwealth Office (FCO) in the UK legalize
+                      it. The FCO will attach an apostille to the document,
+                      certifying its authenticity.
                     </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="processing-block-one wow fadeInLeft animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="inner-box">
-                  <span className="count-text">03</span>
-                  <figure className="image-box">
-                    <img src="assets/images/resource/process-3.png" alt="" />
-                  </figure>
-                  <div className="lower-content">
-                    <h3>Launch with Confidence</h3>
-                    <p>
-                      Start your venture with full support, including
-                      attestation for over 120 countries.{" "}
+                  </li>
+                  <li className="list-group-item">
+                    <strong>Attestation by the UAE Embassy:</strong>
+                    <p className="text-secondary mb-0">
+                      Once the FCO legalizes the document, you should submit it,
+                      along with any necessary forms and fees, to the UAE
+                      Embassy in the UK for attestation. The embassy will then
+                      verify the document and affix their attestation stamp or
+                      seal.
                     </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* process end */}
+                  </li>
+                  <li className="list-group-item">
+                    <strong>
+                      Attestation by the UAE Ministry of Foreign Affairs (MOFA):
+                    </strong>
+                    <p className="text-secondary mb-0">
+                      After the UAE Embassy attests the document, you must
+                      proceed to get the document attested by the UAE Ministry
+                      of Foreign Affairs. Lastly, the MOFA will review the
+                      document and affix their attestation stamp or seal.
+                    </p>
+                  </li>
+                  <li className="list-group-item">
+                    <strong>Translation (if required):</strong>
+                    <p className="text-secondary mb-0">
+                      If your document is in a language other than English or
+                      Arabic, then you need to get it translated into Arabic by
+                      a certified translator. The attestation process should
+                      also be applied to the translated document.
+                    </p>
+                  </li>
+                </ol>
+              </>
+              <>
+                <h1 className="fs-2 mb-3 pt-3">
+                  Why is UK certificate attestation required for the UAE?
+                </h1>
+                <p className="mb-3">
+                  Certificate attestation is a process by which official
+                  documents are authenticated to be used in a foreign country.
+                  In the context of the UK, certificate attestation may be
+                  required for various reasons, including:
+                </p>
+                <div className="container mt-4">
+                  <h2 className="fs-3 mb-3">Educational Purposes:</h2>
+                  <ul className="mb-4">
+                    <li className="text-secondary mb-2">
+                      <strong>Higher Education:</strong>
+                      <br /> If you are planning to pursue higher education in a
+                      foreign country, the educational certificates issued in
+                      the UK may need to be attested to verify their
+                      authenticity.
+                    </li>
+                    <li className="text-secondary mb-2">
+                      <strong>Professional Courses:</strong>
+                      <br /> Certificates from professional courses or
+                      vocational training programs may also require attestation
+                      for recognition in another country.
+                    </li>
+                  </ul>
 
-        {/* testimonial-section */}
-        <section className="testimonial-style-two p_relative">
-          <div
-            className="pattern-layer"
-            style={{ backgroundImage: "url(assets/images/shape/shape-19.png)" }}
-          ></div>
-          <div className="auto-container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12 col-sm-12 thumb-column">
-                <div className="thumb-box">
-                  <div className="thumb thumb-1">
-                    <img src="assets/images/resource/thumb-1.png" alt="" />
-                  </div>
-                  <div className="thumb thumb-2">
-                    <img src="assets/images/resource/thumb-2.jpg" alt="" />
-                  </div>
-                  <div className="thumb thumb-3">
-                    <img src="assets/images/resource/thumb-3.jpg" alt="" />
-                  </div>
-                  <div className="thumb thumb-4">
-                    <img src="assets/images/resource/thumb-4.jpg" alt="" />
-                  </div>
-                  <div className="thumb thumb-5">
-                    <img src="assets/images/resource/thumb-5.jpg" alt="" />
-                  </div>
-                  <div className="thumb thumb-6">
-                    <img src="assets/images/resource/thumb-6.jpg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12 col-sm-12 content-column">
-                <div className="content-box">
-                  <div className="sec-title mb_50">
-                    <span className="sub-title">TESTIMONIALS</span>
-                    <h2>What Our Clients Say About Biz InCorp</h2>
-                  </div>
-                  <div className="content-box">
-                    {/*Theme Carousel*/}
-                    <TestimonialSlider3 />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* testimonial-section */}
+                  <h2 className="mb-3">Employment Purposes:</h2>
+                  <ul className="mb-4">
+                    <li className="text-secondary mb-2">
+                      <strong>Job Opportunities:</strong> <br /> When seeking
+                      employment in a foreign country, employers may require
+                      attested copies of your educational and professional
+                      certificates to ensure their validity.
+                    </li>
+                    <li className="text-secondary mb-2">
+                      <strong>Work Visa:</strong>
+                      <br /> It may require attested educational and
+                      professional documents as part of the process for
+                      obtaining a work visa.
+                    </li>
+                  </ul>
 
-        {/* team-section-style-two */}
-        {/* <section className="team-section sec-pad centred bg-color-1">
-                  <div className="shape">
-                    <div className="shape-1 float-bob-y" style={{ backgroundImage: "url(assets/images/shape/shape-15.png)" }}></div>
-                    <div className="shape-2"></div>
-                    <div className="shape-3 float-bob-x" style={{ backgroundImage: "url(assets/images/shape/shape-16.png)" }}></div>
-                  </div>
-                  <div className="auto-container">
-                    <div className="sec-title mb_50">
-                      <span className="sub-title">Our Team</span>
-                      <h2>Meet Our Expert Advisors <br />for Your Success</h2> 
-                    </div>
-                    <div className="row clearfix">
-                      <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                          <div className="inner-box">
-                            <div className="image-box">
-                              <figure className="image"><img src="assets/images/team/team-1.jpg" alt="" /></figure>
-                              <ul className="social-links clearfix">
-                                <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                <li><Link href="/"><i className="icon-5"></i></Link></li>
-                                <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                <li><Link href="/"><i className="icon-7"></i></Link></li>
-                              </ul>
-                            </div>
-                            <div className="lower-content">
-                              <h3><Link href="team-details/">Black Marvin</Link></h3>
-                              <span className="designation">Medical Assistant</span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-2.jpg" alt="" /></figure>
-                                    <ul className="social-links clearfix">
-                                        <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-5"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                    </ul>
-                                </div>
-                                <div className="lower-content">
-                                    <h3><Link href="team-details">Eleanor Pena</Link></h3>
-                                    <span className="designation">Doctor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-3.jpg" alt="" /></figure>
-                                    <ul className="social-links clearfix">
-                                        <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-5"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                    </ul>
-                                </div>
-                                <div className="lower-content">
-                                    <h3><Link href="team-details">Arlene Maccy</Link></h3>
-                                    <span className="designation">Nursing Assistant</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-md-6 col-sm-12 team-block">
-                        <div className="team-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div className="inner-box">
-                                <div className="image-box">
-                                    <figure className="image"><img src="assets/images/team/team-4.jpg" alt="" /></figure>
-                                    <ul className="social-links clearfix">
-                                        <li><Link href="/"><i className="icon-4"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-5"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-6"></i></Link></li>
-                                        <li><Link href="/"><i className="icon-7"></i></Link></li>
-                                    </ul>
-                                </div>
-                                <div className="lower-content">
-                                    <h3><Link href="team-details">Jenny Wilson</Link></h3>
-                                    <span className="designation">Senior Doctor</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                  </div>
-                </section> */}
-        {/* team-section-style-two end */}
-        {/* subscibe */}
-        <section className="subscribe-section bg-color-1">
-          <div className="auto-container">
-            <div className="inner-container">
-              <div className="row align-items-center">
-                <div className="col-lg-6 col-md-12 col-sm-12 text-column">
-                  <div className="text-box">
-                    <h2>
-                      <span>Subscribe</span> for the exclusive offer!
-                    </h2>
-                  </div>
+                  <h2 className="mb-3">Business and Commercial Activities:</h2>
+                  <ul className="mb-4">
+                    <li className="text-secondary mb-2">
+                      <strong>Business Setup:</strong> <br />
+                      If you plan to set up a business or engage in commercial
+                      activities in a foreign country, certain documents may
+                      need to be attested to meet legal requirements.
+                    </li>
+                    <li className="text-secondary mb-2">
+                      <strong>Partnerships and Contracts:</strong>
+                      <br /> Attestation of documents may be necessary when
+                      entering into partnerships, signing contracts, or
+                      participating in international business transactions.
+                    </li>
+                  </ul>
+                  <h2 className="mb-3">Legal and Migration Processes:</h2>
+                  <ul className="mb-4">
+                    <li className="text-secondary mb-2">
+                      <strong>Immigration:</strong> <br />
+                      When applying for immigration to another country,
+                      authorities may require attested documents to verify your
+                      qualifications and background.
+                    </li>
+                    <li className="text-secondary mb-2">
+                      <strong>Legal Procedures:</strong>
+                      <br /> Attested documents may be needed for legal
+                      procedures, such as court cases or other legal matters, in
+                      a foreign jurisdiction.
+                    </li>
+                  </ul>
+                  <h2 className="mb-3">Personal and Family Matters:</h2>
+                  <ul className="mb-4">
+                    <li className="text-secondary mb-2">
+                      <strong>Marriage:</strong> <br />
+                      Attested documents may be required for marriage
+                      registration in a foreign country.
+                    </li>
+                    <li className="text-secondary mb-2">
+                      <strong>Adoption:</strong>
+                      <br /> For international adoptions, attested documents may
+                      be necessary to meet legal requirements.
+                    </li>
+                  </ul>
+                  <h2 className="mb-3">
+                    Governmental and Official Procedures:
+                  </h2>
+                  <ul className="mb-4">
+                    <li className="text-secondary mb-2">
+                      <strong>Government Jobs:</strong> <br />
+                      If you are applying for a government job in a foreign
+                      country, attested educational and professional
+                      certificates may be required.
+                    </li>
+                    <li className="text-secondary mb-2">
+                      <strong>Official Documentation:</strong>
+                      <br /> Attested documents may be necessary for various
+                      official purposes, such as obtaining a driver’s license,
+                      opening a bank account, etc.
+                    </li>
+                  </ul>
+                  <p className="my-4">
+                    The specific requirements for certificate attestation can
+                    vary depending on the destination country and also the type
+                    of document. It’s advisable to check with the relevant
+                    authorities or consulates of the country where the documents
+                    are intended to be used for the most accurate and up-to-date
+                    information.
+                  </p>
                 </div>
-                <div className="col-lg-6 col-md-12 col-sm-12 form-column">
-                  <div className="form-inner">
-                    <form method="post" action="contact">
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Enter Your Email Address"
-                          required
-                        />
-                        <button type="submit" className="theme-btn btn-one">
-                          <span>Subscribe Now</span>
-                        </button>
-                      </div>
-                      <div className="form-group">
-                        <div className="check-box">
-                          <input
-                            className="check"
-                            type="checkbox"
-                            id="checkbox1"
-                          />
-                          <label htmlFor="checkbox1">
-                            I agree to the <Link href="/">Privacy Policy.</Link>
-                          </label>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+              </>
+              
             </div>
+            <div className="container mt-4">
+      <div className="row mb-4">
+        {/* UK Personal Documents Column */}
+        <div className="col-md-4 border-end">
+          <h3 className="text-dark mb-3">UK Personal Documents</h3>
+          <ul className="list-unstyled">
+            <li className="text-secondary mb-2">UK Birth Certificate Attestation</li>
+            <li className="text-secondary mb-2">UK Marriage Certificate Attestation</li>
+            <li className="text-secondary mb-2">UK Death Certificate Attestation</li>
+            <li className="text-secondary mb-2">UK Medical Certificate Attestation</li>
+            <li className="text-secondary mb-2">UK Transfer Certificate Attestation</li>
+            <li className="text-secondary mb-2">UK Divorce Decree Attestation</li>
+            <li className="text-secondary mb-2">UK Power of Attorney Attestation</li>
+            <li className="text-secondary mb-2">UK Passport Attestation</li>
+            <li className="text-secondary mb-2">UK Birth Certificate Issuance</li>
+            <li className="text-secondary mb-2">UK Marriage Certificate Issuance</li>
+          </ul>
+        </div>
+
+        {/* UK Commercial Documents Column */}
+        <div className="col-md-4 border-end">
+          <h3 className="text-dark mb-3">UK Commercial Documents</h3>
+          <ul className="list-unstyled">
+            <li className="text-secondary mb-2">Memorandum of Association</li>
+            <li className="text-secondary mb-2">Shareholders Certificate</li>
+            <li className="text-secondary mb-2">Articles of Association</li>
+            <li className="text-secondary mb-2">Board Resolution Attestation</li>
+            <li className="text-secondary mb-2">Certificate of Incumbency</li>
+            <li className="text-secondary mb-2">Commercial Invoices</li>
+            <li className="text-secondary mb-2">Certificate of Incorporation</li>
+            <li className="text-secondary mb-2">Certificate of Good Standing</li>
+            <li className="text-secondary mb-2">Agency Agreements, etc.</li>
+          </ul>
+        </div>
+
+        {/* Educational Documents Attestation Column */}
+        <div className="col-md-4">
+          <h3 className="text-dark mb-3">Educational Documents Attestation</h3>
+          <ul className="list-unstyled">
+            <li className="text-secondary mb-2">UK Degree Attestation</li>
+            <li className="text-secondary mb-2">UK Master Degree Attestation</li>
+            <li className="text-secondary mb-2">UK Diploma Attestation</li>
+            <li className="text-secondary mb-2">Membership Certificate</li>
+            <li className="text-secondary mb-2">Transcripts Attestation</li>
+            <li className="text-secondary mb-2">UK Pre Degree Attestation</li>
+          </ul>
+          <div className="d-flex gap-2 mt-4">
+            <Link href="#" className="btn btn-outline-primary rounded-pill" role="button">
+              Call Us
+            </Link>
+            <Link href="#" className="btn btn-outline-secondary rounded-pill" role="button">
+              Mail Us
+            </Link>
           </div>
-        </section>
+        </div>
+      </div>
+    </div>
+          </div>
+        </div>
         {/* subscibe end */}
       </Layout>
     </>

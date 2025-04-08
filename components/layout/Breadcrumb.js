@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Breadcrumb({ breadcrumbTitle }) {
+export default function Breadcrumb({ breadcrumbTitle, isAttestation = false }) {
   // Map each breadcrumb title to a background image path
   const backgroundImages = {
     "About Us": "assets/images/background/aboutus.jpg",
@@ -19,7 +19,8 @@ export default function Breadcrumb({ breadcrumbTitle }) {
 
   // Fallback image if title doesn't match
   const bgImage =
-    backgroundImages[breadcrumbTitle] || "assets/images/background/default.jpg";
+    backgroundImages[breadcrumbTitle] ||
+    "/assets/images/background/default.jpg";
 
   return (
     <section
@@ -50,13 +51,26 @@ export default function Breadcrumb({ breadcrumbTitle }) {
       </div>
       <div className="auto-container">
         <div className="content-box">
-          <h1>{breadcrumbTitle}</h1>
-          <ul className="bread-crumb clearfix">
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>{breadcrumbTitle}</li>
-          </ul>
+          <h1 className="text-black">{breadcrumbTitle}</h1>
+          {isAttestation ? (
+            <div
+              className="contact-button"
+              style={{ textAlign: "center", marginTop: "20px" }}
+            >
+              <Link className="theme-btn btn-one mr_60" href="/contact">
+               <span>Contact us</span>  
+              </Link>
+            </div>
+          ) : (
+            <ul className="bread-crumb clearfix">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li className="text-black text-decoration-underline">
+                {breadcrumbTitle}
+              </li>
+            </ul>
+          )}
         </div>
       </div>
     </section>
