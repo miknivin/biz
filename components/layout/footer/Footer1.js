@@ -82,7 +82,7 @@ export default function Footer1() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+              {/* <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget links-widget ml_55">
                   <div className="widget-title">
                     <h3>Useful Links</h3>
@@ -101,15 +101,15 @@ export default function Footer1() {
                       <li>
                         <Link href="/">Support</Link>
                       </li>
-                      {/* <li><Link href="/">Disclaimer</Link></li> */}
+                      <li><Link href="/">Disclaimer</Link></li>
                       <li>
                         <Link href="/">Faq</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+              </div> */}
+              <div className="col-lg-6 col-md-6 col-sm-12 footer-column">
                 <div className="footer-widget contact-widget">
                   <div className="widget-title">
                     <h3>Contact us</h3>
