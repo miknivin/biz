@@ -97,7 +97,7 @@ export const galleryItems = [
     id: 10,
     image: "/assets/images/flags/qatar.jpeg",
     categories: ["cat-1"],
-    country: "qatar",
+    country: "Qatar",
     title: "Qatar",
     description: "Setup your LLC or Corporation easily.",
     content:
