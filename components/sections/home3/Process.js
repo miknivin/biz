@@ -28,10 +28,10 @@ export default function Process() {
           </h2>
         </div>
         <div className="inner-container">
-          <div
+          {/* <div
             className="arrow-shape"
             style={{ backgroundImage: "url(assets/images/shape/shape-18.png)" }}
-          ></div>
+          ></div> */}
           <div
             className="processing-block-one wow fadeInLeft animated"
             data-wow-delay="00ms"
@@ -41,7 +41,7 @@ export default function Process() {
               <span className="count-text">01</span>
               <figure className="image-box">
                 <img
-                  src="/assets/images/resource/Schedule a Consultation.jpg"
+                  src="/assets/images/resource/schedule-a-consultation.jpg"
                   alt=""
                 />
               </figure>
@@ -62,7 +62,7 @@ export default function Process() {
             <div className="inner-box">
               <span className="count-text">02</span>
               <figure className="image-box">
-                <img src="/assets/images/resource/Apt Solutions.jpg" alt="" />
+                <img src="/assets/images/resource/apt-solutions.jpg" alt="" />
               </figure>
               <div className="lower-content">
                 <h3>Customised Solutions</h3>
@@ -82,7 +82,7 @@ export default function Process() {
               <span className="count-text">03</span>
               <figure className="image-box">
                 <img
-                  src="/assets/images/resource/Launch with confidence.jpg"
+                  src="/assets/images/resource/launch-with-confidence.jpg"
                   alt=""
                 />
               </figure>
