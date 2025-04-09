@@ -36,24 +36,24 @@ export default function Footer1() {
                   </p>
                   <ul className="social-links clearfix">
                     <li>
-                      <Link href="/">
+                      <a href="https://www.instagram.com/thebizincorp/">
                         <i className="icon-4"></i>
-                      </Link>
+                      </a>
                     </li>
-                    <li>
-                      <Link href="/">
+                    {/* <li>
+                      <a href="/">
                         <i className="icon-5"></i>
-                      </Link>
+                      </a>
                     </li>
                     <li>
                       <Link href="/">
                         <i className="icon-6"></i>
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
-                      <Link href="/">
+                      <a href="https://www.facebook.com/thebizincorp/">
                         <i className="icon-7"></i>
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </div>

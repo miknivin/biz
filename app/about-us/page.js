@@ -123,7 +123,7 @@ Expertise
                         <div className="processing-block-one wow fadeInLeft animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                           <div className="inner-box">
                             <span className="count-text">03</span>
-                            <figure className="image-box"><img src="assets/images/resource/Launch with confidence.jpg" alt="" /></figure>
+                            <figure className="image-box"><img src="/assets/images/resource/Launch with confidence.jpg" alt="" /></figure>
                             <div className="lower-content">
                               <h3>Launch with Confidence</h3>
                               <p>Start your venture with full support, including attestation for over 120 countries. </p>

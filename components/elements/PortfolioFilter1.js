@@ -1,4 +1,5 @@
 "use client";
+import { galleryItems } from "@/app/data/attestation";
 import Isotope from "isotope-layout";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -7,112 +8,7 @@ export default function PortfolioFilter1() {
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
 
-  const galleryItems = [
-    {
-      id: 1,
-      image: "/assets/images/flags/egypt flag.jpg",
-      categories: ["cat-1"],
-      country: "egypt",
-      title: "Egypt",
-      isConsolate: true,
-      description: "Egypt Certificate Attestation for UAE",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 2,
-      image: "/assets/images/flags/india flag.jpg",
-      categories: ["cat-1"],
-      country: "india",
-      title: "India",
-      isConsolate: false,
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 3,
-      image: "/assets/images/flags/kuwait flag.jpg",
-      categories: ["cat-1"],
-      country: "kuwait",
-      title: "Kuwait",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 4,
-      image: "/assets/images/flags/lebanon flag.jpg",
-      categories: ["cat-1"],
-      country: "lebanon",
-      isConsolate: true,
-      title: "Lebanon",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 5,
-      image: "assets/images/flags/russia flag.jpg",
-      categories: ["cat-1"],
-      country: "russia",
-      isConsolate: true,
-      title: "Russia",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 6,
-      image: "/assets/images/flags/sweden flag.jpg",
-      categories: ["cat-1"],
-      country: "sweden",
-      title: "Sweden",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 7,
-      image: "/assets/images/flags/switzerland flag.jpg",
-      categories: ["cat-1"],
-      country: "switzerland",
-      title: "Switzerland",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 8,
-      image: "/assets/images/flags/uk flag.jpg",
-      categories: ["cat-1"],
-      country: "uk",
-      title: "United Kingdom",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 9,
-      image: "/assets/images/flags/usa flag.jpg",
-      categories: ["cat-1"],
-      country: "us",
-      title: "USA",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-    {
-      id: 10,
-      image: "/assets/images/flags/qatar.jpeg",
-      categories: ["cat-1"],
-      country: "us",
-      title: "Qatar",
-      description: "Setup your LLC or Corporation easily.",
-      content:
-        "We help you register a business in the USA with complete support and documentation.",
-    },
-  ];
+
 
   useEffect(() => {
     setTimeout(() => {
@@ -195,7 +91,7 @@ export default function PortfolioFilter1() {
           padding: 0 10px; /* Adds horizontal gap between columns */
         }
         .items-container {
-          margin: 0 -10px; /* Counteract the padding on items */
+          margin: 0 10px; /* Counteract the padding on items */
         }
       `}</style>
     </>

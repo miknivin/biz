@@ -28,6 +28,7 @@ export default function Home() {
       <Layout
         headerStyle={2}
         footerStyle={1}
+        isAttestation={true}
         breadcrumbTitle="USA Certificate Attestation for UAE"
       >
         {/* about-section */}
