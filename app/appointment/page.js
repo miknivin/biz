@@ -394,7 +394,7 @@ export default function Home() {
                           <span>Subscribe Now</span>
                         </button>
                       </div>
-                      <div className="form-group">
+                      {/* <div className="form-group">
                         <div className="check-box">
                           <input
                             className="check"
@@ -405,7 +405,7 @@ export default function Home() {
                             I agree to the <Link href="/">Privacy Policy.</Link>
                           </label>
                         </div>
-                      </div>
+                      </div> */}
                     </form>
                   </div>
                 </div>

@@ -18,12 +18,12 @@ export default function subscribe() {
                     <input type="email" name="email" placeholder="Enter Your Email Address" required />
                     <button type="submit" className="theme-btn btn-one"><span>Subscribe Now</span></button>
                   </div>
-                  <div className="form-group">
+                  {/* <div className="form-group">
                     <div className="check-box">
                       <input className="check" type="checkbox" id="checkbox1" />
                       <label htmlFor="checkbox1">I agree to the <Link href="/#">Privacy Policy.</Link></label>
                     </div>
-                  </div>
+                  </div> */}
                 </form>
               </div>
             </div>

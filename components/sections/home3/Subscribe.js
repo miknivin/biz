@@ -27,12 +27,12 @@ export default function Subscribe() {
                       <span>Subscribe Now</span>
                     </button>
                   </div>
-                  <div className="form-group">
+                  {/* <div className="form-group">
                     <div className="check-box">
                       <input className="check" type="checkbox" id="checkbox1" />
-                      {/* <label htmlFor="checkbox1">I agree to the <Link href="/">Privacy Policy.</Link></label> */}
+                      <label htmlFor="checkbox1">I agree to the <Link href="/">Privacy Policy.</Link></label>
                     </div>
-                  </div>
+                  </div> */}
                 </form>
               </div>
             </div>
