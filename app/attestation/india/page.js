@@ -116,7 +116,7 @@ export default function Home() {
               <h1 className="fs-2 mb-3">
                 What is the Process of Indian Certificate Attestation?
               </h1>
-              <p className="text-primary mb-3">
+              <p className="mb-3">
                 The process generally involves Five levels of authentication:
               </p>
               <ul>
