@@ -132,11 +132,11 @@ export default function Home() {
                     backgroundImage: "url(assets/images/shape/shape-17.png)",
                   }}
                 ></div>
-                <div className="video-btn">
+                {/* <div className="video-btn">
                   <a onClick={() => setOpen(true)}>
                     <i className="fas fa-play"></i>
                   </a>
-                </div>
+                </div> */}
                 <h2>
                   Online Consultations With <br />
                   Qualified Doctors

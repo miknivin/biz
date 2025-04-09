@@ -60,7 +60,7 @@ export default function Home() {
         <Features />
         <About />
         <Process />
-        {<Gallery />}
+        <Gallery />
         <Testimonial />
         <Faq />
         <Video />

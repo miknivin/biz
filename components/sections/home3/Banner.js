@@ -55,15 +55,19 @@ export default function Banner() {
                   ></div>
                   <div
                     className="shape-2 rotate-me"
-                    style={{
-                      // backgroundImage: "url(assets/images/shape/shape-9.png)",
-                    }}
+                    style={
+                      {
+                        // backgroundImage: "url(assets/images/shape/shape-9.png)",
+                      }
+                    }
                   ></div>
                   <div
                     className="shape-3 rotate-me"
-                    style={{
-                      // backgroundImage: "url(assets/images/shape/shape-8.png)",
-                    }}
+                    style={
+                      {
+                        // backgroundImage: "url(assets/images/shape/shape-8.png)",
+                      }
+                    }
                   ></div>
                   <div
                     className="shape-4"
@@ -73,7 +77,7 @@ export default function Banner() {
                   ></div>
                 </div>
                 <figure className="image">
-                  <img src="assets/images/banner/banner-img-3.png" alt="" />
+                  <img src="/assets/images/banner/banner-img-3.jpg" alt="" />
                 </figure>
                 {/* <div className="text-box">
                   <h3>Dr. Wade Warren</h3>

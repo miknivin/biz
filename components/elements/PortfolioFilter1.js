@@ -8,40 +8,6 @@ export default function PortfolioFilter1() {
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
 
-
-
-  useEffect(() => {
-    setTimeout(() => {
-      isotope.current = new Isotope(".items-container", {
-        itemSelector: ".masonry-item",
-        percentPosition: true,
-        masonry: {
-          columnWidth: ".masonry-item",
-        },
-        animationOptions: {
-          duration: 750,
-          easing: "linear",
-          queue: false,
-        },
-      });
-    }, 1000);
-  }, []);
-
-  useEffect(() => {
-    if (isotope.current) {
-      filterKey === "*"
-        ? isotope.current.arrange({ filter: `*` })
-        : isotope.current.arrange({ filter: `.${filterKey}` });
-    }
-  }, [filterKey]);
-
-  const handleFilterKeyChange = useCallback(
-    (key) => () => {
-      setFilterKey(key);
-    },
-    []
-  );
-
   const activeBtn = (value) =>
     value === filterKey ? "filter active" : "filter";
 
@@ -83,17 +49,6 @@ export default function PortfolioFilter1() {
           </Link>
         ))}
       </div>
-
-      {/* Inline CSS for additional styling if needed */}
-      <style jsx>{`
-        .masonry-item {
-          /* Optional: Ensure consistent spacing */
-          padding: 0 10px; /* Adds horizontal gap between columns */
-        }
-        .items-container {
-          margin: 0 10px; /* Counteract the padding on items */
-        }
-      `}</style>
     </>
   );
 }

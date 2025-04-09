@@ -41,7 +41,7 @@ export default function Process() {
               <span className="count-text">01</span>
               <figure className="image-box">
                 <img
-                  src="assets/images/resource/Schedule a Consultation.jpg"
+                  src="/assets/images/resource/Schedule a Consultation.jpg"
                   alt=""
                 />
               </figure>
@@ -62,10 +62,7 @@ export default function Process() {
             <div className="inner-box">
               <span className="count-text">02</span>
               <figure className="image-box">
-                <img
-                  src="assets/images/resource/Apt Solutions.jpg"
-                  alt=""
-                />
+                <img src="/assets/images/resource/Apt Solutions.jpg" alt="" />
               </figure>
               <div className="lower-content">
                 <h3>Customised Solutions</h3>
@@ -84,7 +81,10 @@ export default function Process() {
             <div className="inner-box">
               <span className="count-text">03</span>
               <figure className="image-box">
-                <img src="assets/images/resource/Launch with confidence.jpg" alt="" />
+                <img
+                  src="/assets/images/resource/Launch with confidence.jpg"
+                  alt=""
+                />
               </figure>
               <div className="lower-content">
                 <h3>Launch with Confidence</h3>
