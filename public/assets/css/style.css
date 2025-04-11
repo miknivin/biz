@@ -2585,3 +2585,37 @@ button.ltr {
     padding-top: 120px !important;
   }
 }
+
+.scroll-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 60px;
+  transform: rotate(0deg);
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  background: var(--theme-color);
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  border-radius: 50%;
+}
+
+.whatsapp-button {
+  position: fixed;
+  right: 20px;
+  bottom: 120px; /* Adjusted to place it above the Back to Top button */
+  z-index: 99;
+  width: 50px;
+  height: 50px;
+  background: #25d366; /* WhatsApp green color */
+  text-align: center;
+  color: #fff;
+  line-height: 50px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-button:hover {
+  background: #20b358; /* Slightly darker green for hover effect */
+}
