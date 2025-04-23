@@ -35,7 +35,7 @@ export default function Banner() {
                   on growing your dream venture.
                 </p>
                 <div className="btn-box">
-                  <Link href="appointments" className="theme-btn btn-one mr_60">
+                  <Link href="/contact" className="theme-btn btn-one mr_60">
                     <span>Contact Us</span>
                   </Link>
                   {/* <a onClick={() => setOpen(true)}>
