@@ -181,7 +181,7 @@ export default function service() {
                             />
                             <label htmlFor="checkbox1">
                               I agree to the{" "}
-                              <Link href="/">Privacy Policy.</Link>
+                              <Link href="/privacy-policy">Privacy Policy.</Link>
                             </label>
                           </div>
                         </div>

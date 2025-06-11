@@ -78,6 +78,9 @@ export default function Footer1() {
                       <li>
                         <Link href="/contact">Contacts Us</Link>
                       </li>
+                            <li>
+                        <Link href="/privacy-policy">Privacy Policy</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -143,11 +146,9 @@ export default function Footer1() {
             <div className="bottom-inner">
               <ul className="footer-nav clearfix">
                 <li>
-                  <Link href="/">Privacy Policy</Link>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
-                <li>
-                  <Link href="/">Terms of Use</Link>
-                </li>
+              
                 {/* <li>
                   <Link href="/">Sales and Refunds</Link>
                 </li>

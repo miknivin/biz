@@ -25,7 +25,7 @@ export default function service() {
       <Layout
         headerStyle={2}
         footerStyle={1}
-        breadcrumbTitle="Accounting and Bookkeeping"
+        breadcrumbTitle="Accounting and Book keeping"
       >
         <div>
           {/* service-section */}
@@ -74,7 +74,7 @@ export default function service() {
                     <div className="content-one mb_60">
                       {/* <figure className="image-box mb_40"><img src="assets/images/service/service-13.jpg" alt="" /></figure> */}
                       <div className="text-box">
-                        <h2>Accounting and Bookkeeping</h2>
+                        <h2>Accounting and Book keeping</h2>
                         <p>
                           Precise financial management forms the backbone of
                           every successful business operation in the UAE. Biz
@@ -181,7 +181,7 @@ export default function service() {
                             />
                             <label htmlFor="checkbox1">
                               I agree to the{" "}
-                              <Link href="/">Privacy Policy.</Link>
+                              <Link href="/privacy-policy">Privacy Policy.</Link>
                             </label>
                           </div>
                         </div>

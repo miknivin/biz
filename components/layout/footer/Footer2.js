@@ -50,11 +50,7 @@ export default function Footer2() {
                                 <div className="widget-content">
                                     <ul className="links-list clearfix">
                                         <li><Link href="/">Privacy Policy</Link></li>
-                                        <li><Link href="/">Terms &</Link></li>
-                                        <li><Link href="/">Condition</Link></li>
-                                        <li><Link href="/">Support</Link></li>
-                                        <li><Link href="/">Disclaimer</Link></li>
-                                        <li><Link href="/">Faq</Link></li>
+                                    
                                     </ul>
                                 </div>
                             </div>
@@ -80,11 +76,8 @@ export default function Footer2() {
         <div className="auto-container">
           <div className="bottom-inner">
             <ul className="footer-nav clearfix">
-              <li><Link href="/">Privacy Policy</Link></li>
-              <li><Link href="/">Terms of Use</Link></li>
-              <li><Link href="/">Sales and Refunds</Link></li>
-              <li><Link href="/">Legal</Link></li>
-              <li><Link href="/">Site Map</Link></li>
+              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+             
             </ul>
             <div className="copyright">
               <p>&copy; 2024 All Rights Reserved</p>
