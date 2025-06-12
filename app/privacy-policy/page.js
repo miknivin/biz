@@ -28,7 +28,7 @@ export default function PrivacyPolicy() {
               <div className="col-lg-12 col-md-12 col-sm-12 content-column">
                 <div className="content_block_one">
                   <div className="content-box bg-gray-50 p-8 rounded-lg shadow-sm">
-                    <div className="sec-title mb_30 text-center wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div className="sec-title mb_30 text-center">
                       <span className="sub-title text-blue-600 font-medium">Privacy Policy</span>
                       <h2 className="relative text-4xl font-bold text-gray-800 pb-2 after:content-[''] after:absolute after:left-1/2 after:-translate-x-1/2 after:bottom-0 after:w-16 after:h-1 after:bg-gradient-to-r after:from-blue-500 after:to-blue-700">
                         The Biz In Corp
@@ -39,14 +39,14 @@ export default function PrivacyPolicy() {
                         <strong>Effective Date:</strong> June 11, 2025
                       </p>
                       <p className="mb_20">
-                        Welcome to <strong>The Biz In Corp</strong>! Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and protect your information when you visit our website{" "}
+                        Welcome to <strong>The Biz In Corp</strong>! Your privacy is our top priority. This Privacy Policy outlines how we collect, use, disclose, and protect your information when you visit our website{" "}
                         <Link href="https://www.thebizincorp.com" className="text-blue-600 hover:underline">
                           https://www.thebizincorp.com
                         </Link>{" "}
-                        and engage with our services.
+                        and engage with our services, ensuring compliance with applicable laws.
                       </p>
                       <p className="mb_30">
-                        If you have any questions or concerns about this Privacy Policy, please contact us at{" "}
+                        For any questions or concerns, contact us at{" "}
                         <Link href="mailto:support@thebizincorp.com" className="text-blue-600 hover:underline">
                           support@thebizincorp.com
                         </Link>.
@@ -54,99 +54,136 @@ export default function PrivacyPolicy() {
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
                         1. Information We Collect
                       </h3>
                       <p className="mb_20">
-                        We collect only the minimum information required to respond to your inquiries and provide our services. This includes:
+                        We collect only the minimum information necessary to provide our services and respond to your inquiries. This includes:
                       </p>
                       <h4 className="text-lg font-medium text-gray-700 italic mb_15 before:content-['-'] before:mr-2 before:text-blue-600">Personal Information:</h4>
                       <p className="mb_15">
-                        We may collect the following personal details when you voluntarily submit them through contact forms or newsletter signups:
+                        We may collect the following when you voluntarily submit through contact forms, newsletter signups, or account creation:
                       </p>
-                      <ul className="list-style-one clearfix mb_20">
+                      <ul className="list-disc pl-6 mb_20">
                         <li>Full Name</li>
                         <li>Email Address</li>
                         <li>Phone Number</li>
                         <li>Company Name (if provided)</li>
-                        <li>Any other information you choose to submit via the contact form</li>
+                        <li>Payment Information (e.g., for service subscriptions)</li>
+                        <li>Any other information you submit via forms</li>
                       </ul>
                       <h4 className="text-lg font-medium text-gray-700 italic mb_15 before:content-['-'] before:mr-2 before:text-blue-600">Non-Personal Information:</h4>
                       <p className="mb_15">
-                        We also collect non-identifiable information automatically when you visit our website, such as:
+                        We automatically collect non-identifiable data to improve our website, such as:
                       </p>
-                      <ul className="list-style-one clearfix mb_30">
+                      <ul className="list-disc pl-6 mb_30">
                         <li>IP address</li>
                         <li>Browser type and version</li>
                         <li>Operating system</li>
                         <li>Pages visited and time spent on the site</li>
                         <li>Referring website</li>
+                        <li>Device identifiers</li>
                       </ul>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
                         2. How We Use Your Information
                       </h3>
                       <p className="mb_20">
-                        We use the information collected for the following purposes:
+                        We use your information to enhance your experience and deliver our services, including:
                       </p>
-                      <ul className="list-style-one clearfix mb_20">
-                        <li>To respond to your inquiries or contact requests</li>
-                        <li>To provide information or services that you request from us</li>
-                        <li>To send updates or marketing emails (only if you opt-in)</li>
-                        <li>To improve our website performance and user experience</li>
-                        <li>To ensure compliance with legal obligations</li>
+                      <ul className="list-disc pl-6 mb_20">
+                        <li>Responding to inquiries or contact requests</li>
+                        <li>Providing requested services or information</li>
+                        <li>Sending updates or marketing emails (with opt-in consent)</li>
+                        <li>Improving website performance and user experience</li>
+                        <li>Processing payments and managing subscriptions</li>
+                        <li>Ensuring compliance with legal obligations</li>
                       </ul>
                       <p className="mb_30">
-                        We use <strong className="text-blue-600">Zoho Mail</strong> and associated Zoho applications to manage our email communications and contact forms securely.
+                        We use <strong className="text-blue-600">Zoho Mail</strong> and Zoho applications for secure email communications and form management.
                       </p>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        3. Sharing Your Information
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        3. User Consent
                       </h3>
                       <p className="mb_20">
-                        We <strong>do not sell, trade, or rent</strong> your personal information to third parties. However, we may share information under the following conditions:
+                        By using our website or services, you consent to the collection and use of your information as described in this Privacy Policy. You may:
+                      </p>
+                      <ul className="list-disc pl-6 mb_30">
+                        <li>Provide explicit consent via forms (e.g., newsletter opt-in)</li>
+                        <li>Withdraw consent at any time by contacting us</li>
+                        <li>Manage cookie preferences through our cookie banner</li>
+                      </ul>
+
+                      <hr className="my-6 border-t border-gray-200" />
+
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        4. Sharing Your Information
+                      </h3>
+                      <p className="mb_20">
+                        We <strong>do not sell, trade, or rent</strong> your personal information. We may share data under these conditions:
                       </p>
                       <h4 className="text-lg font-medium text-gray-700 italic mb_15 before:content-['-'] before:mr-2 before:text-blue-600">Third-Party Service Providers:</h4>
                       <p className="mb_15">
-                        We use trusted third-party tools such as <strong className="text-blue-600">Zoho Mail</strong> to process inquiries, store contact data, and send communications. These providers are bound by confidentiality agreements and are only allowed to use your information to provide services on our behalf.
+                        Trusted providers like <strong className="text-blue-600">Zoho Mail</strong> process inquiries, store data, and send communications. They are bound by confidentiality agreements.
                       </p>
                       <h4 className="text-lg font-medium text-gray-700 italic mb_15 before:content-['-'] before:mr-2 before:text-blue-600">Legal Requirements:</h4>
                       <p className="mb_30">
-                        We may disclose your information if required by law or in response to valid legal processes (e.g., court orders, government investigations).
+                        We may disclose information if required by law, court orders, or government investigations.
                       </p>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        4. Data Security
-                      </h3>
-                      <p className="mb_20">We take data protection seriously and implement the following measures:</p>
-                      <ul className="list-style-one clearfix mb_30">
-                        <li>Secure form submissions with HTTPS/SSL encryption</li>
-                        <li>Access control and authentication for our systems</li>
-                        <li>Use of trusted third-party platforms with industry-standard security protocols</li>
-                        <li>Regular review of our systems for potential vulnerabilities</li>
-                      </ul>
-
-                      <hr className="my-6 border-t border-gray-200" />
-
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        5. Your Rights
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        5. International Data Transfers
                       </h3>
                       <p className="mb_20">
-                        In accordance with the <strong>Information Technology Act, 2000</strong> and applicable data protection laws, you have the right to:
+                        Your information may be transferred to and stored in countries outside India, where our service providers operate. We ensure:
                       </p>
-                      <ul className="list-style-one clearfix mb_20">
-                        <li><strong>Access</strong> the personal data we hold about you</li>
-                        <li><strong>Rectify</strong> any inaccurate or outdated information</li>
-                        <li><strong>Withdraw consent</strong> or request deletion of your information at any time, subject to legal or operational requirements</li>
+                      <ul className="list-disc pl-6 mb_30">
+                        <li>Compliance with data protection laws (e.g., GDPR, CCPA)</li>
+                        <li>Use of Standard Contractual Clauses for secure transfers</li>
+                        <li>Data encryption during transit</li>
+                      </ul>
+
+                      <hr className="my-6 border-t border-gray-200" />
+
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        6. Data Security
+                      </h3>
+                      <p className="mb_20">
+                        We implement robust measures to protect your data, including:
+                      </p>
+                      <ul className="list-disc pl-6 mb_30">
+                        <li>HTTPS/SSL encryption for form submissions</li>
+                        <li>Access controls and multi-factor authentication</li>
+                        <li>Trusted third-party platforms with industry-standard security</li>
+                        <li>Regular security audits and vulnerability assessments</li>
+                        <li>Data anonymization where possible</li>
+                      </ul>
+
+                      <hr className="my-6 border-t border-gray-200" />
+
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        7. Your Rights
+                      </h3>
+                      <p className="mb_20">
+                        Under the <strong>Information Technology Act, 2000</strong>, GDPR, CCPA, and other laws, you have the right to:
+                      </p>
+                      <ul className="list-disc pl-6 mb_20">
+                        <li><strong>Access</strong> your personal data</li>
+                        <li><strong>Rectify</strong> inaccurate or outdated information</li>
+                        <li><strong>Delete</strong> your data, subject to legal requirements</li>
+                        <li><strong>Restrict</strong> processing of your data</li>
+                        <li><strong>Portability</strong> to receive your data in a structured format</li>
+                        <li><strong>Object</strong> to processing for marketing or profiling</li>
                       </ul>
                       <p className="mb_30">
-                        To exercise these rights, contact us at{" "}
+                        Exercise these rights by contacting{" "}
                         <Link href="mailto:support@thebizincorp.com" className="text-blue-600 hover:underline">
                           support@thebizincorp.com
                         </Link>.
@@ -154,52 +191,75 @@ export default function PrivacyPolicy() {
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        6. Data Retention
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        8. Data Retention
                       </h3>
                       <p className="mb_30">
-                        We retain your contact information only for as long as necessary to fulfill your requests, follow up on services, or meet legal and business obligations. If you request deletion, we will securely erase your data from our systems unless retention is legally required.
+                        We retain your information only as long as necessary for service delivery, legal compliance, or business needs. Upon deletion request, we securely erase your data unless legally required to retain it.
                       </p>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        7. Cookies
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        9. Cookies
                       </h3>
                       <p className="mb_20">
-                        Our website uses cookies to enhance your browsing experience. Cookies help us understand how visitors interact with the website and allow us to improve usability.
+                        Our website uses cookies to enhance user experience, including:
                       </p>
+                      <ul className="list-disc pl-6 mb_30">
+                        <li>Essential cookies for site functionality</li>
+                        <li>Analytics cookies to track usage</li>
+                        <li>Marketing cookies for personalized ads (with consent)</li>
+                      </ul>
                       <p className="mb_30">
-                        You may disable cookies through your browser settings. However, some features of the site may not function correctly if cookies are disabled.
+                        Manage cookies via browser settings or our cookie banner. Disabling cookies may affect site functionality.
                       </p>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        8. Third-Party Links
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        10. Children’s Privacy
                       </h3>
                       <p className="mb_30">
-                        Our website may contain links to third-party websites for your convenience or information. These sites operate independently and have their own privacy policies. We are not responsible for the content or practices of these third-party sites.
+                        Our services are not directed to individuals under 13. We do not knowingly collect personal information from children. If we learn such data has been collected, we will delete it promptly. Contact us if you believe we have collected a child’s data.
                       </p>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
-                        9. Changes to This Privacy Policy
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        11. Third-Party Links
                       </h3>
                       <p className="mb_30">
-                        We may update this Privacy Policy from time to time. Changes will be posted on this page, and the updated version will include a revised effective date. We recommend reviewing this page periodically to stay informed about how we protect your information.
+                        Our website may link to third-party sites with independent privacy policies. We are not responsible for their content or practices.
                       </p>
 
                       <hr className="my-6 border-t border-gray-200" />
 
-                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600 wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        12. Compliance with Laws
+                      </h3>
+                      <p className="mb_30">
+                        We comply with the <strong>Information Technology Act, 2000</strong>, GDPR, CCPA, and other applicable data protection laws to ensure your privacy rights are protected.
+                      </p>
+
+                      <hr className="my-6 border-t border-gray-200" />
+
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
+                        13. Changes to This Privacy Policy
+                      </h3>
+                      <p className="mb_30">
+                        We may update this Privacy Policy periodically. Changes will be posted here with a revised effective date. Review this page regularly to stay informed.
+                      </p>
+
+                      <hr className="my-6 border-t border-gray-200" />
+
+                      <h3 className="text-2xl font-semibold text-gray-800 mb_20 relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-12 after:h-1 after:bg-blue-600">
                         Contact Us
                       </h3>
                       <p className="mb_20">
-                        For questions regarding this Privacy Policy, or to request access or deletion of your personal information, please contact:
+                        For questions or to exercise your privacy rights, contact:
                       </p>
-                      <ul className="list-style-one clearfix mb_20">
+                      <ul className="list-disc pl-6 mb_20">
                         <li>
                           📧{" "}
                           <Link href="mailto:support@thebizincorp.com" className="text-blue-600 hover:underline">
