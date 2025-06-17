@@ -190,10 +190,7 @@ export default function Home() {
                               type="checkbox"
                               id="checkbox1"
                             />
-                            <label htmlFor="checkbox1">
-                              I agree to the{" "}
-                              <Link href="/">Privacy Policy.</Link>
-                            </label>
+                          
                           </div>
                         </div>
                       </form>

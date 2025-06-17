@@ -64,7 +64,7 @@ export default function Footer2() {
                                     <ul className="info-list">
                                         <li><img src="assets/images/icons/icon-1.png" alt="" />3891 Ranchview Dr. Richardson, California USA</li>
                                         <li><i className="icon-2"></i><Link href="tel:01989526503">0198-9526503</Link></li>
-                                        <li><i className="icon-26"></i><Link href="mailto:example@info.com">example@info.com</Link></li>
+                                        <li><i className="icon-26"></i><Link href="  thebizincorp@gmail.com">thebizincorp@gmail.com</Link></li>
                                     </ul>
                                 </div>
                             </div>
