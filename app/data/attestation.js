@@ -57,7 +57,7 @@ export const galleryItems = [
     id: 6,
     image: "/assets/images/flags/sweden flag.jpg",
     categories: ["cat-1"],
-    country: "Sweden",
+    country: "sweden",
     title: "Sweden",
     description: "Setup your LLC or Corporation easily.",
     content:
@@ -67,7 +67,7 @@ export const galleryItems = [
     id: 7,
     image: "/assets/images/flags/switzerland flag.jpg",
     categories: ["cat-1"],
-    country: "Switzerland",
+    country: "switzerland",
     title: "Switzerland",
     description: "Setup your LLC or Corporation easily.",
     content:
@@ -97,7 +97,7 @@ export const galleryItems = [
     id: 10,
     image: "/assets/images/flags/qatar.jpeg",
     categories: ["cat-1"],
-    country: "Qatar",
+    country: "qatar",
     title: "Qatar",
     description: "Setup your LLC or Corporation easily.",
     content:
