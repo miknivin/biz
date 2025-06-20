@@ -114,7 +114,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="container mt-4">
+        <div className="container noc mt-4">
           <div className="row">
             <div className="container mt-4">
               <div className="row mb-4 pb-4">
