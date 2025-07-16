@@ -64,9 +64,9 @@ export default function About() {
                     <p>
                       At Biz InCorp, we empower entrepreneurs and businesses
                       worldwide with seamless solutions for business setup,
-                      visas, and more. With a presence in over 120 countries,
-                      our expert team ensures your success every step of the
-                      way.
+                      visas, and more. We specialize in attestation services
+                      over 120 countries, ensuring your success every step of
+                      the way.
                     </p>
                     <ul className="list-style-one clearfix">
                       <li>Tailored solutions for every business need.</li>

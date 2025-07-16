@@ -84,8 +84,8 @@ export default function Home() {
                       <p>
                         At Biz InCorp, we empower entrepreneurs and businesses
                         with seamless solutions for setup, visas, and more. We
-                        specialize in attestation services for over 120
-                        countries, ensuring your success every step of the way.
+                        specialize in attestation services over 120 countries,
+                        ensuring your success every step of the way.
                       </p>
                       <ul className="list-style-one clearfix">
                         <li>Tailored solutions for every business need.</li>
