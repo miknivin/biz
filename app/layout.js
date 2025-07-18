@@ -9,7 +9,7 @@ import { poppins } from "@/lib/font";
 import Script from "next/script";
 
 export const metadata = {
-  title: "Biz Incorp",
+  title: "The Biz Incorp",
   description: "We help businesses grow.",
   openGraph: {
     title: "Biz Incorp",
